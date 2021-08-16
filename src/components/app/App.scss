@@ -48,6 +48,7 @@ body {
   &> * {
     text-decoration: none;
     color: #000c;
+    color: var(--text);
   }
 }
 
