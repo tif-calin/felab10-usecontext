@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component renders Home 1`] = `
+<DocumentFragment>
+  <header
+    class="Header"
+  >
+    <h1>
+      Lists of Things
+    </h1>
+    <nav>
+      <a
+        href="/"
+      >
+        home
+      </a>
+    </nav>
+  </header>
+  <main
+    class="Home"
+  >
+    What characters would you like to see?
+    <ul>
+      <li>
+        <a
+          href="/list/twinpeaks"
+        >
+          Twin Peaks
+        </a>
+         (74)
+      </li>
+      <li>
+        <a
+          href="/list/avatar"
+        >
+          Avatar: The Last Airbender
+        </a>
+         (497)
+      </li>
+      <li>
+        <a
+          href="/list/rickandmorty"
+        >
+          Rick and Morty
+        </a>
+         (671)
+      </li>
+      <li>
+        <a
+          href="/list/heyarnold"
+        >
+          Hey Arnold!
+        </a>
+         (218)
+      </li>
+      <li>
+        <a
+          href="/list/animalcrossing"
+        >
+          Animal Crossing
+        </a>
+         (391)
+      </li>
+    </ul>
+  </main>
+</DocumentFragment>
+`;
