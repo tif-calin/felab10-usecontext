@@ -23,5 +23,5 @@ export const useCharacters = initialApi => {
     ;
   }, [API, page]);
 
-  return { loading, characters, API, page, setPage, setApi };
+  return { loading, characters, api, API, page, setPage, setApi };
 };

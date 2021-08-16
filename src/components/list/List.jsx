@@ -7,13 +7,13 @@ import APISwitcher from './APISwitcher';
 
 const List = () => {
 
-  const api = new URLSearchParams(useLocation().search).get('api');
-  const state = useCharacters(api); 
-  const { loading, characters, API, page, setPage, setAPI } = state;
+  const urlApi = new URLSearchParams(useLocation().search).get('api');
+  const state = useCharacters(urlApi); 
+  const { loading, characters, API, page, setPage, api, setApi } = state;
 
   return <>
     <Header/>
-    <APISwitcher setAPI={setAPI}/>
+    <APISwitcher api={api} setApi={setApi}/>
     <hr/>
     <h3>{API.name}</h3>
     {loading
